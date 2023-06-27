@@ -1,8 +1,8 @@
 ## Java-Dependency-Injection
 
 ### Type d'archeticture
-	1- architecture monolithique : develope l'application en un seul bloc
-	2- architecture micro-service : decouper le probleme en plusieurs peties modules	
+- architecture monolithique : develope l'application en un seul bloc
+- architecture micro-service : decouper le probleme en plusieurs peties modules	
 
 ### Inversion de controle 
 permettre au développeur de se concentrer sur le code métier alors que le framework qui va s'occupe des codes techniques
