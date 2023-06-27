@@ -1,5 +1,5 @@
 ## Java-Dependency-Injection
-[Les Types d'architecture](#Les-Types-d'architecture)
+[Les Types d'architecture](#-I-Couplage-fort)
 ### Les Types d'architecture
 - architecture monolithique : developper l'application en un seul bloc
 - architecture micro-service : decouper le probleme en plusieurs peties modules	
@@ -12,7 +12,7 @@ application fermée à la modification est ouvert à l'extension
 
 ### Couplage faible & couplage fort
 
-#### I Couplage fort : 
+#### I Couplage fort
 - Ouvert à la modification
 - la class Metier depends la class Doa (relation entre deux classes)
 - la class metier ne peut rien faire s'il n'ya pas de class Dao
