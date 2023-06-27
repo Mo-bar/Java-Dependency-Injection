@@ -13,8 +13,8 @@ application fermée à la modification est ouvert à l'extension
 ### Couplage faible & couplage fort
 
 #### I- Couplage fort : Ouvert à la modification  
-<img src="https://github.com/Mo-bar/Java-Dependency-Injection/ressources/Couplage_fort_V1.jpg">
-<img src="https://github.com/Mo-bar/Java-Dependency-Injection/ressources/Couplage_fort_V2.jpg">
+<img src="https://github.com/Mo-bar/Java-Dependency-Injection/tree/main/ressources/Couplage_fort_V1.jpg">
+<img src="https://github.com/Mo-bar/Java-Dependency-Injection/tree/main/ressources/Couplage_fort_V2.jpg">
 
 
 la class metier ne peut rien faire s'il n'ya pas de class Dao 
