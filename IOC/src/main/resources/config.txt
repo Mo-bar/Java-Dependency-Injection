@@ -1,0 +1,2 @@
+org.barkouch.couplage_faible.dao.DaoImpl
+org.barkouch.couplage_faible.metier.MetierImpl

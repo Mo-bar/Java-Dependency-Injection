@@ -1,0 +1,4 @@
+> mvn compile : uniquement compile
+> mvn test : maven va comple et ensuire executer les testes unitaires.
+>mvn package : compile > test > genere le package(archive toutes les classes et les resources du projet )
+> mvn install : compile > test > package > install
