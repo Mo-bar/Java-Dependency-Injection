@@ -1,9 +1,9 @@
 package org.barkouch.dao;
 
-public class DaoImpl implements IDao{
+import org.springframework.stereotype.Component;
 
-    public DaoImpl() {
-    }
+//@Component("dao") //? instancier la class DaoImpl comme nom 'dao'
+public class DaoImpl implements IDao{
 
     @Override
     public double getData() {

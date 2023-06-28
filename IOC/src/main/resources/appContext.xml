@@ -4,7 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean id="dao" class="org.barkouch.extension.DaoVWS"></bean>  <!-- au demmarage de l'application, cree un objet de type DaoImpl et le donne comme nom dao-->
     <bean id="metier" class="org.barkouch.metier.MetierImpl" >
-        <property name="dao" ref="dao"></property> <!--Injection via setter  'setDao(dao)'-->
+       <!-- <property name="dao" ref="dao"></property>--> <!--Injection via setter  'setDao(dao)'-->
+        <constructor-arg ref="dao"></constructor-arg> <!--Injection via constructor  'setDao(dao)'-->
     </bean>
 
 </beans>

@@ -13,8 +13,7 @@ public class Presentaion {
         System.out.println(dao.getData());
 
         dao = new DaoImpl2();
-        MetierImpl metier = new MetierImpl();
-        metier.setDao(dao);
+        MetierImpl metier = new MetierImpl(dao);
         System.out.println(metier.calcul());
     }
 }
