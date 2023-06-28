@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="dao" class="org.barkouch.extension.DaoVWS"></bean>  <!-- au demmarage de l'application, cree un objet de type DaoImpl et le donne comme nom dao-->
+    <bean id="metier" class="org.barkouch.metier.MetierImpl" >
+        <property name="dao" ref="dao"></property> <!--Injection via setter  'setDao(dao)'-->
+    </bean>
+
+</beans>

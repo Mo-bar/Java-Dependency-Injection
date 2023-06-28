@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        //? Injection des dependaces par instanciation dynamique
 
         Scanner scanner = new Scanner(new File("src/main/resources/config.txt"));
         String daoClassName = scanner.nextLine();
