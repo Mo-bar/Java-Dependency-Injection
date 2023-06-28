@@ -1,9 +1,9 @@
-package org.barkouch.couplage_faible.presentation;
+package org.barkouch.presentation;
 
-import org.barkouch.couplage_faible.dao.DaoImpl;
-import org.barkouch.couplage_faible.dao.IDao;
-import org.barkouch.couplage_faible.extension.DaoImpl2;
-import org.barkouch.couplage_faible.metier.MetierImpl;
+import org.barkouch.dao.DaoImpl;
+import org.barkouch.dao.IDao;
+import org.barkouch.extension.DaoImpl2;
+import org.barkouch.metier.MetierImpl;
 
 public class Presentaion {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.barkouch.couplage_faible.dao;
+package org.barkouch.dao;
 
 public interface IDao {
     double getData();

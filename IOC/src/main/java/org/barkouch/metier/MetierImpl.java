@@ -1,6 +1,6 @@
-package org.barkouch.couplage_faible.metier;
+package org.barkouch.metier;
 
-import org.barkouch.couplage_faible.dao.IDao;
+import org.barkouch.dao.IDao;
 
 public class MetierImpl implements IMetier{
     private IDao dao; //? couplage faible.

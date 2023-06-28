@@ -1,2 +1,2 @@
-org.barkouch.couplage_faible.dao.DaoImpl
-org.barkouch.couplage_faible.metier.MetierImpl
+org.barkouch.dao.DaoImpl
+org.barkouch.metier.MetierImpl

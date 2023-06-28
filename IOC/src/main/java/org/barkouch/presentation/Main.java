@@ -1,7 +1,7 @@
-package org.barkouch.couplage_faible.presentation;
+package org.barkouch.presentation;
 
-import org.barkouch.couplage_faible.dao.IDao;
-import org.barkouch.couplage_faible.metier.IMetier;
+import org.barkouch.dao.IDao;
+import org.barkouch.metier.IMetier;
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Scanner;

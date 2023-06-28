@@ -1,6 +1,6 @@
-package org.barkouch.couplage_faible.extension;
+package org.barkouch.extension;
 
-import org.barkouch.couplage_faible.dao.IDao;
+import org.barkouch.dao.IDao;
 
 public class DaoImpl2 implements IDao {
     @Override

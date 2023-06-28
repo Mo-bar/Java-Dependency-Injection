@@ -1,4 +1,4 @@
-package org.barkouch.couplage_faible.metier;
+package org.barkouch.metier;
 
 public interface IMetier {
     //? besions fonctionnelles

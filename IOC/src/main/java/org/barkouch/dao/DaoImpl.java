@@ -1,4 +1,4 @@
-package org.barkouch.couplage_faible.dao;
+package org.barkouch.dao;
 
 public class DaoImpl implements IDao{
 
