@@ -1,5 +1,6 @@
 
-#  <p align="center"> Java Dependency Injection</p>
+#  _<p align="center"> Java Dependency Injection</p>_
+### _Table des matières_
 - [Les Types d'architecture](#1)  
 - [Inversion de controle](#2)  
 - [Couplage faible & couplage fort](#3)   
@@ -11,11 +12,11 @@
 - **architecture monolithique :** developer l'application `en un seul bloc`
 - **architecture micro-service** : decouper le probleme en plusieurs `peties modules	`
 
-### <a name="2"></a> Inversion de controle :
+### <a name="2"></a> _Inversion de controle_ :
 - permettre au développeur de se concentrer sur le `code métier`, alors que le framework qui va s'occupe des `codes techniques`
 
-### <a name="3"></a> Couplage faible & couplage fort :
-- ### <a name="3.1"></a> Couplage fort
+### <a name="3"></a> _Couplage faible & couplage fort_ :
+- ### <a name="3.1"></a> _Couplage fort_
   - Ouvert à la modification, fermee à l’extension.
   - la class `Metier` depends la class `Doa` (relation entre deux classes).
   - la class `metier` ne peut rien faire s'il n'ya pas de class `Dao`.
@@ -24,7 +25,7 @@
   <img src="https://github.com/Mo-bar/Java-Dependency-Injection/assets/98557431/46360feb-8411-460c-b327-b475995c8f7f">
   <img src="https://github.com/Mo-bar/Java-Dependency-Injection/assets/98557431/0aadb6c4-7208-4c81-a8dc-bb7db7e3a7ad">
 
-- ### <a name="3.2"></a> Couplage faible : 
+- ### <a name="3.2"></a> _Couplage faible_ : 
   - Ferme à la `modification`, Ouvert à `l'extension`
   - La classe `Métier` dépend de l'interface `Doa` (relation entre classe et interface)
   - la class `Métier` fonctionne avec n'importe quelle class qui implement l'interface `Dao` 
@@ -42,7 +43,7 @@
   - ##### Couche `Presentation` :
     - On utilise `l'instanciation dynamique` pour eviter le couplage fort
 
-#### <a name="4"></a> Exigences d'un projet informatique
+### <a name="4"></a> _Exigences d'un projet informatique_
 - #### Exigences fonctionnelles
   - Satisfaire les besions fonctionnels (metiers) de l'entreprise.
 - #### Exigences techniques
