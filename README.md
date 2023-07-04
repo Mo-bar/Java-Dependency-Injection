@@ -41,7 +41,7 @@
     - Ouvert à l'extension; `IMetier` est une interface alors on peut cree un autre implentations.
 
   - ##### Couche `Presentation` :
-    - On utilise `l'instanciation dynamique` pour eviter le couplage fort
+    - On utilise `l'instanciation dynamique`(fichier du configuration ou Annotation) pour eviter le couplage fort
 
 ### <a name="4"></a> _Exigences d'un projet informatique_
 - #### Exigences fonctionnelles
