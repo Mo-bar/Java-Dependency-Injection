@@ -31,6 +31,7 @@
   - la class `Métier` fonctionne avec n'importe quelle class qui implement l'interface `Dao` 
   - Pas besoin de modifier le code source pour `évoluer` du projet
   <img src="https://github.com/Mo-bar/Java-Dependency-Injection/assets/98557431/48b33069-1d3e-4025-bd23-387f5c4ca21e">
+  
   - ##### Couche `IDao` : 
     - Fermee à  la modification; l'interface IDao be depend d'aucune autre class.
     - Ouvert à  l'extension; IDao est une interface.
@@ -42,8 +43,8 @@
   - ##### Couche `Presentation` :
     - On utilise `l'instanciation dynamique` pour eviter le couplage fort
 
-##### <a name="4"></a> Exigences d'un projet informatique
-- ##### Exigences fonctionnelles
+#### <a name="4"></a> Exigences d'un projet informatique
+- #### Exigences fonctionnelles
   - Satisfaire les besions fonctionnels (metiers) de l'entreprise.
 - #### Exigences techniques
   - Performances : l'application doit etre performante (le temps de reponse)
