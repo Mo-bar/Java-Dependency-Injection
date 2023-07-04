@@ -1,7 +1,8 @@
 #  <p align="center"> Java Dependency Injection</p>
-[Les Types d'architecture](cf)   
-[About](#about)  
-[1. ### Inversion de controle]()
+
+### [1 Inversion de controle](#1)   
+
+### <a name="1"></a> 1. Inversion de controle
 1.  ###  Les Types d'architecture
 - architecture monolithique : developper l'application en un seul bloc
 - architecture micro-service : decouper le probleme en plusieurs peties modules	
