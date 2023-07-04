@@ -1,12 +1,11 @@
 
 #  <p align="center"> Java Dependency Injection</p>
-
-###  [Les Types d'architecture](#1)
-### [Inversion de controle](#2)
-### [Couplage faible & couplage fort](#3)
-### [Couplage fort](#3.1)
-### [Couplage faible](#3.2)
-### [Exigences d'un projet informatique](#4)
+- [Les Types d'architecture](#1)  
+- [Inversion de controle](#2)  
+- [Couplage faible & couplage fort](#3)   
+- [Couplage fort](#3.1)   
+- [Couplage faible](#3.2)   
+- [Exigences d'un projet informatique](#4)   
 
 ### <a name="1"></a> _Les Types d'architecture_ :
 - **architecture monolithique :** developer l'application `en un seul bloc`
